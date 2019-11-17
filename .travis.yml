@@ -38,5 +38,3 @@ deploy:
   overwrite: true
   name: "OpenDiablo Unstable (Build $TRAVIS_BUILD_NUMBER)"
   prerelease: true
-  on:
-    tags: true
