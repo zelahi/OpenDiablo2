@@ -30,8 +30,7 @@ notifications:
   email: false
 deploy:
   provider: releases
-  api_key:
-    secure: "$GITHUB_TOKEN"
+  edge: true
   file_glob: true
   file: opendiablo2-$TRAVIS_TAG-$TRAVIS_OS_NAME.*
   skip_cleanup: true
